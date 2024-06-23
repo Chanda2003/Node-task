@@ -1,0 +1,178 @@
+
+
+
+
+/* General Styles */
+.contents {
+    margin: 20px;
+  }
+  
+  .div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Accordion Styles */
+  .accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-body {
+    background-color: #fff;
+  }
+  
+  /* Form Styles */
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .form-group span{
+    font-size: 10px;
+  }
+  
+  .form-label {
+    width: 200px;
+    font-weight: bold;
+  }
+  
+  .form-control, .form-select {
+    width: 400px;
+  }
+  
+  .radio-group div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-left: 14%;
+  }
+  
+  .radio-group label {
+    margin-left: 10px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.primary {
+    background-color: purple;
+    color: white;
+  }
+  
+  button.secondary {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+  }
+  
+  .inline-buttons {
+    display: inline-flex;
+    float: right;
+    align-items: center;
+    margin: 9px;
+  }
+  
+  .pagination-circle {
+    background-color: purple;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .right-buttons {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  .spacer {
+    height: 60px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-label, .form-control, .form-select {
+      width: 100%;
+    }
+  
+    .radio-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .radio-group input[type="radio"] {
+      margin-left: 0;
+    }
+  
+    .radio-group label {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contents {
+      margin: 10px;
+    }
+  
+    .accordion-body {
+      padding: 10px;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .form-label, .form-control, .form-select {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
